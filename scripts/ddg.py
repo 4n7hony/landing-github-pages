@@ -140,7 +140,7 @@ def main(argv):
     out_file = path.join(base_path, config["output"])
     print("  Writing to file '%s'..." % out_file)
     with open(out_file, "wt") as f_out:
-        f_out.write("# ddgtrackerradar standard\n")
+        f_out.write("# Title: Blokada's DDG Tracker Radar Standard\n")
         f_out.write("# This host file is based on DuckDuckGo Tracker Radar.\n")
         f_out.write("# More info at https://go.blokada.org/ddgtrackerradar\n")
         f_out.write(f"# Generated at {datetime.now()}\n")
